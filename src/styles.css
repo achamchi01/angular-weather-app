@@ -4,8 +4,8 @@
   --yellow-1: #fac742;
   --white: rgb(0, 0, 0);
   --grey-1: #ededed;
-  --shadow-dark: rgba(0, 0, 0, 0.3);
-  --shadow-light: rgba(255, 255, 255, 0.1);
+  --shadow-dark: rgba(148, 148, 148, 0.3);
+  --shadow-light: rgba(145, 145, 145, 0.1);
 }
 
 * {
@@ -141,12 +141,12 @@ body {
 }
 
 .search input {
-  background-color: var(--shadow-light);
+  background-color: var(--shadow-dark);
   outline: none;
   border: none;
   border-radius: 20px;
   padding: 1em;
-  color: var(--grey-1);
+  color: var(--white);
   font-size: 0.8em;
   text-align: center;
 }
